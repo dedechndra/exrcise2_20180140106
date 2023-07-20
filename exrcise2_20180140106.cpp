@@ -62,4 +62,21 @@ public:
 		return 4 * getX();
 	}
 };
+int main() {
+	bidangDatar* objek;
+
+	objek = new Lingkaran();
+	objek->input();
+	float Luas();
+	float keliling();
+
+	objek = new Bujursangkar();
+	objek->input();
+	float Luas();
+	float keliling();
+
+	delete objek;
+
+	return 0;
+}
 
