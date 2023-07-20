@@ -20,3 +20,27 @@ public:
 		return x;
 	}
 };
+) {
+	return x;
+	}
+};
+
+
+class Lingkaran : public bidangDatar {
+public:
+	void input() {
+		cout << "Lingkaran dibuat" << endl;
+		cout << "Masukkan jejari: ";
+		int jejari;
+		cin >> jejari;
+		setX(jejari);
+	}
+
+	float Luas() {
+		return 3.14 * getX() * getX();
+	}
+
+	float keliling() {
+		return 2 * 3.14 * getX();
+	}
+};
