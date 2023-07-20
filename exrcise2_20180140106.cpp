@@ -20,10 +20,8 @@ public:
 		return x;
 	}
 };
-) {
-	return x;
-	}
-};
+
+
 
 
 class Lingkaran : public bidangDatar {
