@@ -44,3 +44,22 @@ public:
 		return 2 * 3.14 * getX();
 	}
 };
+class Bujursangkar :public bidangDatar {
+public:
+	void input() {
+		cout << "Bujursangkar dibuat " << endl;
+		cout << "Masukkan sisi: ";
+		int sisi;
+		cin >> sisi;
+		setX(sisi);
+	}
+
+	float Luas() {
+		return getX() * getX();
+	}
+
+	float keliling() {
+		return 4 * getX();
+	}
+};
+
